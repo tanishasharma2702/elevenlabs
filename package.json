@@ -1,0 +1,26 @@
+{
+  "name": "ai-voice-narrator",
+  "version": "1.0.0",
+  "description": "Modern AI Voice Narrator web application using ElevenLabs Text-to-Speech API",
+  "main": "netlify/functions/text-to-speech.js",
+  "scripts": {
+    "start": "netlify dev",
+    "dev": "netlify dev",
+    "build": "echo \"Ready for deployment\""
+  },
+  "keywords": [
+    "elevenlabs",
+    "text-to-speech",
+    "tts",
+    "ai-voice",
+    "netlify-functions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-cli": "^17.38.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8"
+  }
+}

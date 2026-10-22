@@ -1,0 +1,21 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Netlify local folders
+.netlify/
+
+# Production build artifacts
+dist/
+build/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.log
